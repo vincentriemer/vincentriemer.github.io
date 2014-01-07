@@ -23,14 +23,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/css\/style.css" : {
+    "\/sass\/partials\/_cover.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/style.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/sass\/partials\/_cover.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/sass\/css\/_cover.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/js\/script.js" : {
       "ignoreWasSetByUser" : 0,
@@ -67,17 +70,14 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/sass\/partials\/_cover.scss" : {
+    "\/css\/style.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/partials\/_cover.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/css\/_cover.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/css\/style.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/_layouts\/default.html" : {
       "ignoreWasSetByUser" : 1,
@@ -99,17 +99,6 @@
       "initialSize" : 63522,
       "fileType" : 4096
     },
-    "\/images\/desktop.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/desktop.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/desktop.jpg",
-      "initialSize" : 173007,
-      "fileType" : 4096
-    },
     "\/sass\/style.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -122,6 +111,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/images\/desktop.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/desktop.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/desktop.jpg",
+      "initialSize" : 173007,
+      "fileType" : 4096
+    },
     "\/images\/laptop_half.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -133,15 +133,6 @@
       "initialSize" : 42027,
       "fileType" : 4096
     },
-    "\/index.kit" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.kit",
-      "outputAbbreviatedPath" : "\/index.html",
-      "fileType" : 65536
-    },
     "\/_layouts\/post.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -150,6 +141,15 @@
       "inputAbbreviatedPath" : "\/_layouts\/post.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/index.kit" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/index.kit",
+      "outputAbbreviatedPath" : "\/index.html",
+      "fileType" : 65536
     },
     "\/js\/script-ck.js" : {
       "ignoreWasSetByUser" : 0,

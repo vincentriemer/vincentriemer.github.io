@@ -1,3 +1,6 @@
+$title-size: 100px;
+$title-spacing: 20px;
+
 .cover-container {
 	position: relative;
 	height: 100%;
@@ -7,40 +10,44 @@
 	h1 {
 		// Positioning
 		position: absolute;
-		height: 100px;
+		height: $title-size;
 		z-index: 1;
-		left: 0; right: 0;
 		top: 50%;
-		margin-top: -50px;
-		text-align: center;
+		margin-top: -1 * ( $title-size / 2 );
 
 		// Font
-		font-family: "futura-pt";
-		font-size: 120px;
+		font-family: "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: $title-size;
 		color: #FFFFFF;
-	}
-	
-	#about-container #blog-container {
-		position: relative;
-		width: 50%;		
-		height: 100%;
 	}
 
 	#about-container {
-		left: 0;
+		position: absolute;
+		left: 0; top: 0; bottom: 0;
+		right: 50%;	
 		img {
-			position: absolute;			
+			position: absolute;
+			right: 0;			
+			min-width: 100%;
 			min-height: 100%;
-			right: 50%;
+		}
+		h1 {
+			right: $title-spacing;
 		}
 	}
 
 	#blog-container {
-		right: 0;
+		position: absolute;
+		right: 0; top: 0; bottom: 0;
+		left: 50%;
 		img {
 			position: absolute;
+			left: 0;			
+			min-width: 100%;
 			min-height: 100%;
-			left: 50%;
+		}
+		h1 {
+			left: $title-spacing;
 		}
 	}
 }

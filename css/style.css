@@ -296,27 +296,34 @@ html, body {
     position: absolute;
     height: 100px;
     z-index: 1;
-    left: 0;
-    right: 0;
     top: 50%;
     margin-top: -50px;
-    text-align: center;
-    font-family: "futura-pt";
-    font-size: 120px;
+    font-family: "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 100px;
     color: #FFFFFF; }
-  .cover-container #about-container #blog-container {
-    position: relative;
-    width: 50%;
-    height: 100%; }
   .cover-container #about-container {
-    left: 0; }
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 50%; }
     .cover-container #about-container img {
       position: absolute;
-      min-height: 100%;
-      right: 50%; }
+      right: 0;
+      min-width: 100%;
+      min-height: 100%; }
+    .cover-container #about-container h1 {
+      right: 20px; }
   .cover-container #blog-container {
-    right: 0; }
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 50%; }
     .cover-container #blog-container img {
       position: absolute;
-      min-height: 100%;
-      left: 50%; }
+      left: 0;
+      min-width: 100%;
+      min-height: 100%; }
+    .cover-container #blog-container h1 {
+      left: 20px; }
