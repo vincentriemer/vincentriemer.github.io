@@ -1,0 +1,5 @@
+name: Vincent Riemer
+markdown: redcarpet
+pygments: true
+destination: ../vincentriemer.github.io
+exclude: ['sass','codekit-config.json','*.kit']

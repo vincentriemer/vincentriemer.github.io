@@ -1,0 +1,46 @@
+.cover-container {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background-color: #1E2222;
+
+	h1 {
+		// Positioning
+		position: absolute;
+		height: 100px;
+		z-index: 1;
+		left: 0; right: 0;
+		top: 50%;
+		margin-top: -50px;
+		text-align: center;
+
+		// Font
+		font-family: "futura-pt";
+		font-size: 120px;
+		color: #FFFFFF;
+	}
+	
+	#about-container #blog-container {
+		position: relative;
+		width: 50%;		
+		height: 100%;
+	}
+
+	#about-container {
+		left: 0;
+		img {
+			position: absolute;			
+			min-height: 100%;
+			right: 50%;
+		}
+	}
+
+	#blog-container {
+		right: 0;
+		img {
+			position: absolute;
+			min-height: 100%;
+			left: 50%;
+		}
+	}
+}
