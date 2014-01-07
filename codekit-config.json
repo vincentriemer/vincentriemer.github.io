@@ -23,17 +23,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/sass\/partials\/_cover.scss" : {
+    "\/css\/style.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/partials\/_cover.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/css\/_cover.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/css\/style.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/js\/script.js" : {
       "ignoreWasSetByUser" : 0,
@@ -58,23 +55,29 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css\/style.css" : {
+    "\/sass\/partials\/_syntax.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/style.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/sass\/partials\/_syntax.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/sass\/css\/_syntax.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
-    "\/_partials\/desktop_cover.html" : {
+    "\/sass\/partials\/_cover.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_partials\/desktop_cover.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/sass\/partials\/_cover.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/sass\/css\/_cover.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/_layouts\/default.html" : {
       "ignoreWasSetByUser" : 1,
@@ -95,18 +98,6 @@
       "outputAbbreviatedPath" : "\/images\/edc_half.jpg",
       "initialSize" : 63522,
       "fileType" : 4096
-    },
-    "\/sass\/partials\/_syntax.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/partials\/_syntax.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/css\/_syntax.css",
-      "fileType" : 4,
-      "debugStyle" : 0
     },
     "\/images\/desktop.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -142,15 +133,6 @@
       "initialSize" : 42027,
       "fileType" : 4096
     },
-    "\/_layouts\/post.html" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_layouts\/post.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/index.kit" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -160,16 +142,14 @@
       "outputAbbreviatedPath" : "\/index.html",
       "fileType" : 65536
     },
-    "\/js\/AnimationFrame.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+    "\/_layouts\/post.html" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/AnimationFrame.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/AnimationFrame-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/_layouts\/post.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/js\/script-ck.js" : {
       "ignoreWasSetByUser" : 0,
@@ -180,6 +160,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/script-ck-ck.js",
+      "fileType" : 64
+    },
+    "\/js\/AnimationFrame.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/AnimationFrame.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/AnimationFrame-ck.js",
       "fileType" : 64
     }
   },
