@@ -7,18 +7,32 @@ $title-spacing: 20px;
 	width: 100%;
 	background-color: #1E2222;
 
-	h1 {
+	h1, h2 {
 		// Positioning
 		position: absolute;
 		height: $title-size;
 		z-index: 1;
 		top: 50%;
 		margin-top: -1 * ( $title-size / 2 );
+		padding: $title-spacing;
 
 		// Font
 		font-family: "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-size: $title-size;
 		color: #FFFFFF;
+
+		// Background
+		background-color: rgba(0,0,0,0.7);
+		opacity: 1.0;
+	}
+
+	h1 {
+		opacity: 1.0;
+	}
+
+	h2 {		
+		font-weight: 300;
+		opacity: 0.0;
 	}
 
 	#about-container {
@@ -31,8 +45,11 @@ $title-spacing: 20px;
 			min-width: 100%;
 			min-height: 100%;
 		}
-		h1 {
-			right: $title-spacing;
+		h1, h2 {
+			right: 0;
+		}
+		&:hover {
+			cursor: pointer;
 		}
 	}
 
@@ -46,8 +63,11 @@ $title-spacing: 20px;
 			min-width: 100%;
 			min-height: 100%;
 		}
-		h1 {
-			left: $title-spacing;
+		h1, h2 {
+			left: 0;
+		}
+		&:hover {
+			cursor: pointer;
 		}
 	}
 }

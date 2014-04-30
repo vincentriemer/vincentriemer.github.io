@@ -1,0 +1,285 @@
+/* line 5, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 16, ../sass/partials/_page.scss */
+body, select, input, textarea {
+  color: white;
+  font-family: "proxima-nova", sans-serif;
+}
+
+/* line 21, ../sass/partials/_page.scss */
+html, body, main {
+  height: 100%;
+}
+
+/* line 25, ../sass/partials/_page.scss */
+html {
+  overflow: hidden;
+}
+
+/* line 29, ../sass/partials/_page.scss */
+body {
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: #050505;
+}
+
+/* line 35, ../sass/partials/_page.scss */
+main {
+  position: relative;
+  width: 100%;
+}
+
+/* line 40, ../sass/partials/_page.scss */
+#background-image {
+  left: 10%;
+  bottom: 0;
+  position: absolute;
+  width: auto;
+  height: 90%;
+}
+
+/* line 48, ../sass/partials/_page.scss */
+#content {
+  position: absolute;
+  width: 280px;
+  top: calc(10% + 3%);
+  right: 10%;
+}
+
+/* line 55, ../sass/partials/_page.scss */
+svg {
+  width: 280px;
+  height: 280px;
+}
+
+/* line 60, ../sass/partials/_page.scss */
+.st2 {
+  fill: #fff;
+}
+
+/* line 64, ../sass/partials/_page.scss */
+.st0 {
+  fill: #4B4B4B;
+}
+
+/* line 68, ../sass/partials/_page.scss */
+.st1 {
+  fill: #181818;
+}
+
+@font-face {
+  font-family: si;
+  src: url(../icons/socicon.eot?#iefix) format(embedded-opentype), url(../icons/socicon.woff) format(woff), url(../icons/socicon.ttf) format(truetype), url(../icons/socicon.svg#siregular) format(svg);
+  font-weight: 400;
+  font-style: normal;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: si;
+    src: url(../icons/socicon.svg#siregular) format(svg);
+  }
+}
+/* line 92, ../sass/partials/_page.scss */
+.center {
+  margin-top: 50px;
+  text-align: center;
+}
+
+/* line 97, ../sass/partials/_page.scss */
+.soc {
+  display: inline-block;
+  overflow: hidden;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 104, ../sass/partials/_page.scss */
+.soc li {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+}
+
+/* line 110, ../sass/partials/_page.scss */
+.soc li a {
+  font-family: si !important;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -o-transition: .1s;
+  -ms-transition: .1s;
+  -moz-transition: .1s;
+  -webkit-transition: .1s;
+  transition: .1s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  position: relative;
+  z-index: 1;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  font-size: 38px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  margin-right: 28px;
+  color: #ffffff;
+  background-color: #181818;
+}
+
+/* line 150, ../sass/partials/_page.scss */
+.soc-soundcloud:hover {
+  background-color: #fe3801;
+}
+
+/* line 154, ../sass/partials/_page.scss */
+.soc-facebook:hover {
+  background-color: #3e5b98;
+}
+
+/* line 158, ../sass/partials/_page.scss */
+.soc-twitter:hover {
+  background-color: #4da7de;
+}
+
+/* line 164, ../sass/partials/_page.scss */
+.soc-icon-last {
+  margin: 0 !important;
+}
+
+/* line 168, ../sass/partials/_page.scss */
+.soc-soundcloud:before {
+  content: 'n';
+}
+
+/* line 171, ../sass/partials/_page.scss */
+.soc-facebook:before {
+  content: 'b';
+}
+
+/* line 174, ../sass/partials/_page.scss */
+.soc-twitter:before {
+  content: 'a';
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (max-width: 960px) {
+  /* line 5, ../sass/partials/_media.scss */
+  #content {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  /* line 12, ../sass/partials/_media.scss */
+  svg {
+    display: inline-block;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 568px) {
+  /* line 20, ../sass/partials/_media.scss */
+  svg {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 568px) and (orientation: landscape) {
+  /* line 29, ../sass/partials/_media.scss */
+  .center {
+    margin-top: 10px;
+  }
+}
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+  /* line 37, ../sass/partials/_media.scss */
+  .center {
+    margin-top: 100px;
+  }
+
+  /* line 40, ../sass/partials/_media.scss */
+  .soc li {
+    zoom: 0.9;
+  }
+}
