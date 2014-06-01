@@ -48,9 +48,6 @@ $title-spacing: 20px;
 		h1, h2 {
 			right: 0;
 		}
-		&:hover {
-			cursor: pointer;
-		}
 	}
 
 	#blog-container {
@@ -65,9 +62,6 @@ $title-spacing: 20px;
 		}
 		h1, h2 {
 			left: 0;
-		}
-		&:hover {
-			cursor: pointer;
 		}
 	}
 }
