@@ -1,7 +1,0 @@
-name: Vincent's Blog
-markdown: redcarpet
-destination: _site
-exclude: ['codekit-config.json','*.kit']
-url: ''
-sass:
-  sass_dir: _sass
