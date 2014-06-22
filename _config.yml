@@ -2,6 +2,6 @@ name: Vincent's Blog
 markdown: redcarpet
 destination: _site
 exclude: ['codekit-config.json','*.kit']
-url: http://vincentriemer.github.io
+url: http://vincentriemer.github.io/
 sass:
   sass_dir: _sass
